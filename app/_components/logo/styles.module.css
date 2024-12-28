@@ -1,0 +1,26 @@
+
+.area {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  
+}
+
+.area > :first-child {
+  font-family: angola;
+  font-size: 30px;
+  color: rgb(209, 3, 3);
+  font-weight: bolder ;
+}
+
+.area > :last-child {
+  font-family: minas;
+  font-size: 26px;
+  color: rgb(226, 226, 13);
+  margin-top: -15px;
+}

@@ -1,0 +1,25 @@
+.area {
+  user-select: none;
+}
+.active {
+  animation: animeactive 1s forwards;
+}
+
+@keyframes animeactive {
+  100%{
+    transform: translateX(26px);
+  }
+}
+
+.disable{
+  animation: animationdisable 1s forwards;
+}
+
+@keyframes animationdisable {
+  0%{
+    transform: translateX(26px)
+  }
+  100%{
+    transform: translateX(0px)
+  }
+}

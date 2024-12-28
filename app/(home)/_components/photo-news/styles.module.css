@@ -1,0 +1,6 @@
+.news > div {
+  border-bottom: 1px solid var(--color-line-2)
+}
+.news :last-child{
+  border: none;
+}

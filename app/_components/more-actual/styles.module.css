@@ -1,0 +1,28 @@
+.card_area {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 36px;
+  flex: 2;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.categories_list {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  flex: 1;
+}
+
+.categories_list > div {
+  border-bottom: 1px solid var(--color-line-2);
+  padding-bottom: 16px;
+}
+
+.categories_list :last-child {
+  border: none;
+}

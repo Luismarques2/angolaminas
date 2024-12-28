@@ -1,0 +1,45 @@
+.area {
+  background-color: var(--color-footer);
+  float: bottom;
+  padding-top: 30px;
+  padding-bottom: 26px;
+  font-size: 14px;
+  margin-top: 42px;
+ 
+}
+
+.area a:hover {
+  text-decoration: underline;
+}
+
+.description {
+  display: grid;
+  gap: 16px;
+  max-width: 580px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list :is(a, span) {
+  padding: 8px 0;
+  display: inline-block;
+  text-decoration: none;
+  
+}
+
+.border {
+  background-color: var(--color-line-2);
+  width: 100%;
+  height: 1px;
+  margin-bottom: 5px;
+}

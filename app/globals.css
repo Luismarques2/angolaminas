@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  transition: 0.3s;
+}
+:root {
+  --color-main: #f0f0f0;
+  --color-text: #333;
+  --color-top: #fff;
+  --color-line: #888;
+  --color-line-2: #ddd;
+  --color-secondary: #fff;
+  --color-footer: #F87208;
+  --color-gradient: linear-gradient(92deg, #E41412 -7.79%, #FFF201 169.71%);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --color-main: #030c12;
+    --color-text: #ededed;
+    --color-top: #191c20;
+    --color-secondary: #191c20;
+    --color-line-2: #111;
+  }
+} */
+
+body {
+  color: var(--color-text);
+  background: var(--color-main);
+}
+
+@font-face {
+  font-family: angola;
+  src: url(./_assets/_fonts/logo/FontMesa\ -\ MarlinSoftBasic-Regular.otf);
+}
+@font-face {
+  font-family: minas;
+  src: url(./_assets/_fonts/logo/minas.otf);
+}

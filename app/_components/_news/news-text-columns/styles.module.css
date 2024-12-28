@@ -1,0 +1,9 @@
+.area h3{
+  text-wrap: wrap;
+  text-overflow: clip;
+  line-clamp: 2;
+
+}
+.area div {
+  overflow: hidden;
+}
