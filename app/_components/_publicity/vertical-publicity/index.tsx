@@ -4,10 +4,12 @@ import Title from "../../title";
 export default function VerticalPublicity(){
 
   return(
-    <div className="flex justify-center items-center flex-1" style={{
+    <div className="flex  flex-1 p-[10px]" style={{
       backgroundImage: "var(--color-gradient)"
     }}>
-      <Title text="Publicite Aqui !" />
+       <div className={"flex flex-1 justify-center items-center border-dashed border-[5px] border-white"}>
+         <Title text="Publicite Aqui !" />
+      </div>
     </div>
   )
 }

@@ -19,7 +19,6 @@ body{
   --color-footer: #F87208;
   --color-gradient: linear-gradient(92deg, #E41412 -7.79%, #FFF201 169.71%);
 }
-
 /* @media (prefers-color-scheme: dark) {
   :root {
     --color-main: #030c12;
@@ -29,6 +28,7 @@ body{
     --color-line-2: #111;
   }
 } */
+
 
 body {
   color: var(--color-text);

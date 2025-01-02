@@ -23,17 +23,21 @@ export default function MoreActual(){
 
          
       </div>
-      <div className={styles.categories}>
-        <TitleShort text="Notícias mais vistas"/>
-        <div className={styles.categories_list}>
+      
+        <div className={styles.categories}>
+        <div className={'flex flex-col flex-1 gap-[10px]'}>
+          <TitleShort text="Notícias mais vistas"/>
+          <div className={styles.categories_list}>
 
-        {home_photos.map( (e,i) => {
-          return <Category key = {i} title={e.title} description={e.sub} number={i+1} />
-        })}
-          {/* <Category title="categoria" number={1} description="Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante"/>
-          <Category title="categoria" number={1} description="Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante"/>
-          <Category title="categoria" number={1} description="Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante"/>
-          <Category title="categoria" number={1} description="Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante"/> */}
+          {home_photos.map( (e,i) => {
+            return <Category key = {i} title={e.title} description={e.sub} number={i+1} />
+          })}
+            {/* <Category title="categoria" number={1} description="Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante"/>
+            <Category title="categoria" number={1} description="Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante"/>
+            <Category title="categoria" number={1} description="Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante"/>
+            <Category title="categoria" number={1} description="Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante, Esse é um tipo de categoria, muito interessante"/> */}
+          
+          </div>
           <VerticalPublicity />
         </div>
         

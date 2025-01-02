@@ -5,9 +5,14 @@ import { useEffect, useState } from "react";
 
 const ThemeButton = () => {
   
-  const actualtheme = localStorage.getItem("theme") as unknown as Themes
-  const [active, setActive] = useState(actualtheme == Themes.dark)
+  
+  const [active, setActive] = useState(false)
+  let seted = false
   useEffect(() => {
+    if(!seted){
+      setActive((localStorage.getItem("theme") as unknown as Themes) == Themes.dark)
+      seted = true
+    }
     themChange(active)
   }, [active])
 

@@ -15,7 +15,6 @@
   display: flex;
   gap: 10px;
   flex-direction: column;
-  flex: 1;
 }
 
 .categories_list > div {
@@ -25,4 +24,5 @@
 
 .categories_list :last-child {
   border: none;
+  padding-bottom: 0px;
 }

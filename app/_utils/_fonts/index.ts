@@ -1,17 +1,20 @@
 import {Titillium_Web, Oswald, Manrope, Merriweather} from "next/font/google"
 
-export const fontHeader = Titillium_Web({
+export const menuHeader = Titillium_Web({
   variable: "--font-header-1",
   weight: "600",
-  subsets: ["latin"]
+  subsets: ["latin", "latin-ext"],
+  preload: true
+  
 })
 
-export const fontHeader2 = Oswald( {
+export const fontHeader = Oswald( {
   variable: "--font-header-2",
-  subsets:  ["latin"]
+  subsets:  ["latin"],
+  
 })
 
-export const menuHeader = Manrope( {
+export const fontHeader2 = Manrope( {
   variable: "--font-menu-header",
   subsets: ['latin']
 })

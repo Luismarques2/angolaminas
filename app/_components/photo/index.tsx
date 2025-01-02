@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /***Verifcar a necessidade desse componente ser client side */
 "use client"
 
@@ -106,9 +107,7 @@ const Description = ({
     }}>
         <Label text={label}/>
         <div className="text-white">
-          <Title text={title} className="text-upper" style={{
-            textTransform: "uppercase"
-          }}/>
+          <Title text={title} className="text-upper uppercase" />
           <h3 className="font-500 text-[14px]">
             {sub}
           </h3>

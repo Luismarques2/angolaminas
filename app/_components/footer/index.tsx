@@ -118,7 +118,7 @@ export default function Footer({pinted}: {pinted?:boolean}) {
             <div className={styles.border} />
 
             <span className="paragraph m-auto">
-              © 2024 Alçada Digital. Todos os direitos reservados.
+              © Revista Angola Minas - Todos os direitos reservados: Desenvolvido por Alçada Digital
             </span>
           </div>
       </MainContainer>
